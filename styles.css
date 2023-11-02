@@ -1,0 +1,143 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  scroll-behavior: smooth;
+  background-image: var(--gradient);
+  color: var(--primary-text-color);
+  background-blend-mode: lighten;
+  font-family: "__whyte_5bb98a";
+  font-size: 16;
+}
+
+:root{
+  --gradient:linear-gradient(
+    to right,
+    #a52c48,
+    #1e7797
+    );
+    --primary-text-color: #fff;
+    --button-color: var(#d3738a);
+    --box-boundary-color: var(#ff6f91)
+}
+
+
+header {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+
+section:nth-child(2n) {
+  background-color:rgb(15, 15, 66);
+  background-size: 400% 400%;
+  color: #fff;
+}
+
+section {
+ min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.about-content{
+  gap: 1rem;
+  max-width: 40rem;
+}
+
+.text-align-center {
+  align-items: center;
+}
+
+.about-content-divider {
+  border: 2px dashed white;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.message {
+  max-width: 60%;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 0.5rem 0.5rem;
+  margin: 2rem, 2rem;
+  border-radius: 30px  0px 30px 30px;
+  background-color: #674397;
+  border: rgb(147, 56, 207);
+  border-style: solid;
+  background-size: 400% 400%;
+  color:rgb(13, 13, 53);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.hero {
+  flex-direction: column;
+  align-items: center;
+  color: azure;
+  background-image: url("image8.jpg");
+  background-attachment: fixed;
+  background-size: cover ;
+  font-family: "__whyte_5bb98a";  
+}
+
+.about-content article {
+  flex-direction: column;
+  text-align: center;
+}
+
+
+section.crafts article {
+  gap: 24px;
+  margin-top: 24px;
+}
+
+section.crafts img {
+  height: 200px;
+}
+
+.contact ul {
+  padding: 0;
+}
+
+.contact ul > li {
+  display: inline-block;
+}
+.box-icon {
+  height: 2rem;
+  font-size: 2rem;
+}
+
+.footer{
+  color:black
+}
+a{
+  color:black
+}
